@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gloria+Hallelujah&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+*::selection{
+   /* color: #f8471193;*/
+   color:#f86300;
+}
+
+
+
+body{
+     background: fixed url(https://64.media.tumblr.com/23bcb479432ed8f9af70ddcba8045d7b/tumblr_plo3wefN0G1we9f2ro1_r1_1280.gifv)
+     repeat-x #9e6638;
+     background-repeat: no-repeat;  
+     background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+header{
+     border:2px solid rgb(0, 0, 0);
+     margin-bottom: 60px;
+
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #b94f2e85;
+
+    
+}
+
+.first_tittle{
+     font-size: 25px;
+     color: #212121;
+     font-family: 'Gloria Hallelujah', cursive;
+     letter-spacing: 8px;
+
+}
+.div_menu{
+     list-style: none;
+     display: flex;
+     font-size: 18px;
+    
+}
+.div_menu li{
+     padding: 10px;
+    
+}
+.div_menu a{
+     color: black;
+}
+
+
+.div_menu li a:active{
+     color: #f86300;
+}
+
+.calculator{
+     text-align: center;
+     margin-top: 10px;
+     font-family: 'VT323', monospace;
+     letter-spacing: 2px;
+     font-size: 28px;
+}
+.container_OperadorA{
+     margin-bottom: 10px;
+}
+
+.calculator input{
+     margin-top: 5px;
+     height: 30px;
+     width: 25%;
+     border-radius: 5px;
+}
+.container_OperadorB{
+     margin-bottom: 10px;
+}
+.botton_enviar{
+     margin-top: 10px;
+     height: 40px;
+     width: 90px;
+}
+button{
+     border-radius: 6px;
+}
+footer{
+     text-align: center;
+     background-color: #bb5030ea;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: auto;
+     border: 2px solid;
+     
+}
+.icons_container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+}
+.icons_container a{
+     padding: 20px;
+     font-size: 20px;
+     cursor: pointer;
+     color: #212121;
+}
+footer i:active{
+     color: white;
+}
+::placeholder{
+     text-align: center;
+}

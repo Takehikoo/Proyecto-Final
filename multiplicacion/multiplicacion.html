@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacion Calculadora</title>
+    <link href="styles-multiplicacion.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="div_tittle">
+            <h1 class="first_tittle">Aplicacion Calculadora</h1>
+        </div>
+        <ul class="div_menu">
+            <li><a id="div_menu" href="/index.html"> Inicio</a></li>
+            <li><a id="div_menu" href="/suma/suma.html"> Suma</a></li>
+            <li><a id="div_menu" href="/resta/resta.html"> Resta</a></li>
+            <li><a id="div_menu" href="/multiplicacion/multiplicacion.html"> Multiplicacion</a></li>
+            <li><a id="div_menu" href="/division/division.html"> Division</a></li>
+        </ul>
+    
+    </nav>
+
+</header>
+
+
+<article class="calculator" id="calculator">
+    <form action="" id="formulario">
+        <div class="container_OperadorA">
+            <div class="container_label"> <label for="">Operador A</label></div>
+            <div class="container_Input"> <input type="number" id="operadorA" placeholder="Ingrese un numero"></div>
+    
+        </div>
+        <div class="container_OperadorB">
+            <div class="container_label"> <label for="">Operador B</label></div>
+            <div class="container_Input"> <input type="number" class="input_class" id="operadorB" placeholder="Ingrese un numero"></div>
+    
+        </div>
+        <button class="botton_enviar" onclick="multiplicar()">Multiplicar</button>
+    </form>
+    
+    <div id="resultado"></div>  
+</article>
+
+
+<footer>
+    <div class="tittle3_container">
+        <h3>Contactos</h3>
+    </div>
+    <div class="icons_container">
+       <li> <a href="https://www.facebook.com/profile.php?id=100006759641970"><i class="bi bi-facebook face"></i></a></li>
+       <li><a href="https://www.instagram.com/pipeguzman.zip/"><i class="bi bi-instagram insta"></i></a></li>
+       <li><a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp whats"></i></a></li> 
+       
+    </div>
+</footer>
+
+
+
+<script src="/app.js"></script>
+ </body>
+</html>
